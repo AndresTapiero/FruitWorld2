@@ -8,6 +8,7 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     card_view:cardBackgroundColor="#ffff"
     card_view:cardCornerRadius="8dp"
     android:clickable="true"
@@ -21,7 +22,7 @@
 
         <ImageView
             android:id="@+id/imageViewFruit"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
@@ -29,7 +30,8 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:background="@drawable/apple_bg" />
+
+             />
 
         <TextView
             android:id="@+id/nameFruit"
@@ -38,16 +40,16 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_gravity="center"
-            android:layout_marginStart="92dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="19dp"
-            android:layout_marginEnd="101dp"
+            android:layout_marginEnd="10dp"
             android:layout_toEndOf="@+id/imageViewFruit"
             android:gravity="center"
             android:text="Prueba"
             android:textSize="13dp" />
 
         <TextView
-            android:id="@+id/descriptionFuit"
+            android:id="@+id/textViewDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/nameFruit"
@@ -56,12 +58,12 @@
             android:layout_marginTop="-4dp"
             android:layout_marginBottom="28dp"
             android:layout_toEndOf="@+id/imageViewFruit"
-            android:text="Apple Description "
+            android:hint="Description here"
             android:gravity="center"
             android:textSize="10dp" />
 
         <TextView
-            android:id="@+id/textViewCounter"
+            android:id="@+id/textViewCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -70,7 +72,7 @@
             android:layout_marginTop="78dp"
             android:layout_marginEnd="6dp"
             android:layout_marginBottom="1dp"
-            android:text="0"
+            android:hint="0"
             android:textSize="14dp" />
 
 

@@ -5,4 +5,7 @@
     <color name="colorNotch">#905a7171</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="ColorAlert">#c90a07</color>
+    <color name="ColorDefault">#393939</color>
+
 </resources>

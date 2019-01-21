@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="16" />
+                                                <entry key="scalingPercent" value="2" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,7 +34,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="54" />
+                                                <entry key="scalingPercent" value="72" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -44,11 +45,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="D:\Descargas\salad.png" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
-                                      <entry key="generateWebIcon" value="false" />
-                                      <entry key="outputName" value="ic_salad" />
+                                      <entry key="foregroundImage" value="D:\Descargas\tree.png" />
+                                      <entry key="foregroundLayerName" value="ic_tree" />
                                     </map>
                                   </option>
                                 </PersistentState>
